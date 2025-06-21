@@ -1,0 +1,64 @@
+{
+  "dashboard_plan": {
+    "charts": [
+      {
+        "chart_type": "line",
+        "dimensions": [
+          "Year",
+          "Month of the year"
+        ],
+        "measures": [
+          "Users",
+          "New Users",
+          "Sessions"
+        ],
+        "optional_filter": [
+          "Source / Medium"
+        ],
+        "story": "This chart visualizes the trend of total Users, New Users, and Sessions over the months for different years. It helps identify seasonal patterns and the effectiveness of marketing campaigns across different sources."
+      },
+      {
+        "chart_type": "bar",
+        "dimensions": [
+          "Source / Medium"
+        ],
+        "measures": [
+          "Bounce Rate",
+          "Conversion Rate (%)"
+        ],
+        "optional_filter": [
+          "Year"
+        ],
+        "story": "This bar chart compares the Bounce Rate and Conversion Rate for different traffic sources. It highlights which sources are more effective in retaining users and converting them into customers."
+      },
+      {
+        "chart_type": "pie",
+        "dimensions": [
+          "Source / Medium"
+        ],
+        "measures": [
+          "Revenue"
+        ],
+        "optional_filter": [
+          "Year"
+        ],
+        "story": "This pie chart shows the distribution of Revenue by Source/Medium. It allows stakeholders to see which sources contribute the most to overall revenue, aiding in budget allocation and marketing strategy."
+      },
+      {
+        "chart_type": "bar",
+        "dimensions": [
+          "Year",
+          "Month of the year"
+        ],
+        "measures": [
+          "Transactions",
+          "Quantity Sold"
+        ],
+        "optional_filter": [
+          "Source / Medium"
+        ],
+        "story": "This bar chart depicts the number of Transactions and Quantity Sold over time. It helps in understanding sales performance and the relationship between transactions and quantity sold, revealing trends in consumer behavior."
+      }
+    ]
+  }
+}

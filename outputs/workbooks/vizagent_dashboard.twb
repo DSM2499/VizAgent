@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<workbook version="21.1" source-build="VizAgent" source-version="21.1" has-user-views="false">
+  <datasources>
+    <datasource name="VizAgentSource" hasextract="true">
+      <connection class="hyper"/>
+      <extract file="vizagent_output.hyper"/>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="Chart 1">
+      <description>This chart visualizes the trend of total Users, New Users, and Sessions over the months for different years. It helps identify seasonal patterns and the effectiveness of marketing campaigns across different sources.</description>
+    </worksheet>
+    <worksheet name="Chart 2">
+      <description>This bar chart compares the Bounce Rate and Conversion Rate for different traffic sources. It highlights which sources are more effective in retaining users and converting them into customers.</description>
+    </worksheet>
+    <worksheet name="Chart 3">
+      <description>This pie chart shows the distribution of Revenue by Source/Medium. It allows stakeholders to see which sources contribute the most to overall revenue, aiding in budget allocation and marketing strategy.</description>
+    </worksheet>
+    <worksheet name="Chart 4">
+      <description>This bar chart depicts the number of Transactions and Quantity Sold over time. It helps in understanding sales performance and the relationship between transactions and quantity sold, revealing trends in consumer behavior.</description>
+    </worksheet>
+  </worksheets>
+</workbook>

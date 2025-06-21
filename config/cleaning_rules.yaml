@@ -1,0 +1,6 @@
+drop_column_null_threshold: 0.5
+fillna_strategy:
+  numeric: mean
+  categorical: mode
+remove_duplicates: true
+convert_dates: true
